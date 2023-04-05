@@ -1,0 +1,59 @@
+.filmesPrincipais{
+    height: 700px;
+    background: rgb(177,58,243);
+    background: linear-gradient(90deg, rgba(177,58,243,1) 13%, rgba(134,40,199,1) 45%, rgba(95,21,166,1) 86%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    align-items: center;
+    
+}
+
+img, .atropos{
+    width: 400px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.filmesPrincipais__title{
+    display: flex;
+    align-self: center;
+    padding-top: 30px;
+    grid-row-start: 1;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.my-atropos, .my-atropos2, .my-atropos3, .my-atropos4, .my-atropos5, .my-atropos6{
+    padding-left: 104px
+}
+
+.my-atropos{
+    grid-row-start: 3;
+    grid-column: 1;
+}
+
+.my-atropos2{
+    grid-row-start: 3;
+    grid-column: 2;
+}
+
+.my-atropos3{
+    grid-row-start: 3;
+    grid-column: 3;
+}
+
+.my-atropos4{
+    grid-row-start: 5;
+    grid-column: 1;
+}
+
+.my-atropos5{
+    grid-row-start: 5;
+    grid-column: 2;
+}
+
+.my-atropos6{
+    grid-row-start: 5;
+    grid-column: 3;
+}

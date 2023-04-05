@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+header{
+    background-image: url(../imagens/filmes.png);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-size: cover;
+}
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column: 1/13;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+li{
+    display: inline-block;
+    margin-right: 8px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 92px;
+    height: 72px;
+}
+
+.logo__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 12px;
+    color: white;
+}
+
+.home{
+    color: #fd0178;
+}
+
+hr{
+    margin-top: 4px;
+    border-color: #fd0178;
+    display: flex;
+}
+
+h1{
+    grid-row-start: 3;
+    grid-column: 2/6;
+    font-size: 36px;
+    color: white;
+    font-family: 'Abel';
+}
+
+h2{
+    grid-row-start: 4;
+    grid-column: 2/8;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Abel';
+}
+
+.btn{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    font-family: 'Abel'; 
+    display: flex;   
+}
+
+.btn__start{
+    background-color: #fd0178;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__plan{
+    background-color: #252c57;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:700px){
+    .menu__links{
+        display: none;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    .btn__start, .btn__plan{
+        width: 100px;
+        height: 50px'   ;
+    }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+footer{
+    background-color: #190330;
+    height: 60px;
+   
+}
+
+.footer__text{
+    font-family:'Yanone Kaffeesatz';
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-top: 24px;
+}
